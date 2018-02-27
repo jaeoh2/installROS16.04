@@ -1,13 +1,11 @@
-# installROSTX2
-Install Robot Operating System (ROS) on NVIDIA Jetson TX2
+# installROS Ubuntu 16.04
+Install Robot Operating System (ROS) Kinetic on Ubuntu 16.04
 
-These scripts will install Robot Operating System (ROS) on the NVIDIA Jetson TX2 development kit.
+These scripts will install Robot Operating System (ROS) on the Ubuntu 16.04
 
-Tested on L4T 28.1
+The script is based on the Ubuntu install of ROS Kinetic: http://wiki.ros.org/kinetic/Installation/Ubuntu
 
-The script is based on the Ubuntu ARM install of ROS Kinetic: http://wiki.ros.org/kinetic/Installation/UbuntuARM
-
-Maintainer of ARM builds for ROS is http://answers.ros.org/users/1034/ahendrix/
+A fork from : https://github.com/jetsonhacks/installROSTX2
 
 <strong>updateRepositories.sh</strong>
 This is an optional step. Adds the repositories universe, multiverse, and restricted and then apt-get update. These repositories are in the standard 27.1 install, so probably not needed.
